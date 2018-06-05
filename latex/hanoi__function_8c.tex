@@ -1,0 +1,51 @@
+\section{C\+:/\+Users/\+John/\+Desktop/gh/proj-\/th-\/recursivity/project-\/tower-\/of-\/hanoi-\/recurivity/hanoi\+\_\+function.c File Reference}
+\label{hanoi__function_8c}\index{C\+:/\+Users/\+John/\+Desktop/gh/proj-\/th-\/recursivity/project-\/tower-\/of-\/hanoi-\/recurivity/hanoi\+\_\+function.\+c@{C\+:/\+Users/\+John/\+Desktop/gh/proj-\/th-\/recursivity/project-\/tower-\/of-\/hanoi-\/recurivity/hanoi\+\_\+function.\+c}}
+
+
+C library implementation for recursive algorithm for tower of Hanoi.  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$stdlib.\+h$>$}\newline
+{\ttfamily \#include \char`\"{}print.\+h\char`\"{}}\newline
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \textbf{ tower\+\_\+of\+\_\+hanoi} (int no\+\_\+of\+\_\+stories, char silver\+\_\+plate[$\,$], char bronze\+\_\+plate[$\,$], char golden\+\_\+plate[$\,$])
+\begin{DoxyCompactList}\small\item\em Implement the recursive algorithm. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+C library implementation for recursive algorithm for tower of Hanoi. 
+
+\begin{DoxyAuthor}{Author}
+Diana Bleoanca. Implements the main function. 
+\end{DoxyAuthor}
+
+
+\subsection{Function Documentation}
+\mbox{\label{hanoi__function_8c_a931b9d5bea64dd7a0daa829856a010aa}} 
+\index{hanoi\+\_\+function.\+c@{hanoi\+\_\+function.\+c}!tower\+\_\+of\+\_\+hanoi@{tower\+\_\+of\+\_\+hanoi}}
+\index{tower\+\_\+of\+\_\+hanoi@{tower\+\_\+of\+\_\+hanoi}!hanoi\+\_\+function.\+c@{hanoi\+\_\+function.\+c}}
+\subsubsection{tower\+\_\+of\+\_\+hanoi()}
+{\footnotesize\ttfamily void tower\+\_\+of\+\_\+hanoi (\begin{DoxyParamCaption}\item[{int}]{no\+\_\+of\+\_\+stories,  }\item[{char}]{silver\+\_\+plate[$\,$],  }\item[{char}]{bronze\+\_\+plate[$\,$],  }\item[{char}]{golden\+\_\+plate[$\,$] }\end{DoxyParamCaption})}
+
+
+
+Implement the recursive algorithm. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em no\+\_\+of\+\_\+stories} & -\/ the number of stories , data input \\
+\hline
+{\em silver\+\_\+plate} & -\/ string that keeps the name of this plate \\
+\hline
+{\em bronze\+\_\+plate} & -\/ string that keeps the name of this plate \\
+\hline
+{\em golden\+\_\+plate} & -\/ string that keeps the name of this plate If the number of stories (the data input) is equal with 1, then we have only one move to do. This is the condition to return from recursivity. First, we implement the solution for the stories, besides the largest supposing that we need to push them on the auxiliary plate( bronze ). The largest story will be moved from silver to golden plate. After that, we will move, in recursive way, those plates from bronze plate to destination plate. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 30 of file hanoi\+\_\+function.\+c.
+
